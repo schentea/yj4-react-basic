@@ -1,30 +1,6 @@
 import "./App.css";
 function App() {
-  const name = "react";
-  const name1 = undefined;
-  const style = {
-    backgroundColor: "black",
-    color: "aqua",
-    fontSize: "20px",
-    fontWeight: "bold",
-    padding: 16,
-  };
   return (
-    // <div style={style}>
-    //   <h1>삼항연산자</h1>
-    //   {name === "react" ? <p>리액트입니다</p> : <p>리액트가 아닙니다.</p>}
-    //   <br />
-    //   <h1>이항연산자</h1>
-    //   {name === "react" && <p>리액트입니다.</p>}
-    //   <br />
-    //   <h1>undefined 렌더링 금지?</h1>
-    //   {name1 || "리액트"}
-    //   <div className="react">
-    //     <h1>CSS 파일 import</h1>
-    //     {name}
-    //     <p>html과 다르게 태그는 닫아줘야함</p>
-    //   </div>
-    // </div>
     <>
       <div>
         <div className="one">
